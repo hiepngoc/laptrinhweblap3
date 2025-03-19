@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.browser-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.browser-buttons {
+    display: flex;
+}
+
+.browser-buttons .button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.browser-buttons .button:nth-child(1) {
+    background-color: red;
+}
+
+.browser-buttons .button:nth-child(2) {
+    background-color: orange;
+}
+
+.browser-buttons .button:nth-child(3) {
+    background-color: green;
+}
+
+.address-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.address-bar img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.address-bar input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 5px 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}

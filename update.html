@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cập nhật</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/update.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="browser-bar">
+                <div class="browser-buttons">
+                    <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <a href="#">Home</a>
+                <a href="#">Đăng nhập</a>
+                <a href="#">Đăng ký</a>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="text-center mb-4">Màn hình cập nhật</h1>
+            <form id="update-form">
+                <div class="form-group">
+                    <label for="username">Tên đăng nhập:</label>
+                    <input type="text" class="form-control" id="username" name="username" value="300x" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" class="form-control" id="password" name="password" value="300x" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Nhập lại mật khẩu:</label>
+                    <input type="password" class="form-control" id="confirm-password" name="confirm-password" value="JXK" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" value="3000" required>
+                </div>
+                <div class="form-group d-flex justify-content-between">
+                    <a href="#" class="login-link">Đã có tài khoản</a>
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <p>Lập trình web @201/2024</p>
+        </div>
+    </div>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/update.js"></script>
+</body>
+</html>
